@@ -1,0 +1,83 @@
+.clock
+{
+   background: violet;
+   border: 2px solid #000;
+   border-radius: 50%;
+   height:300px;
+   position: relative;
+   width: 300px;
+}
+ 
+.twelve
+{
+   position: absolute;
+   color: gray;
+   left: 41%;
+   top: -7px;
+   font-size:50px;
+   height: 10px;
+   width: 4px;
+}
+ 
+.three
+{
+   position: absolute;
+   color: gray;
+   right: 16px;
+   top: 41%;
+   font-size:50px;
+   height: 4px;
+   width: 10px;
+}
+ 
+.six
+{
+   position: absolute;
+   color: gray;
+   bottom: 44px;
+   left: 47%;
+   font-size:50px;
+   height: 10px;
+   width: 4px;
+}
+ 
+.nine
+{
+   position: absolute;
+   color: gray;
+   left: 4px;
+   top: 41%;
+   font-size:50px;
+   height: 4px; 
+   width: 10px;  
+}
+#hour-line
+{
+   height: 100px;
+   width: 4px;
+   background: #000000;
+   position: absolute;
+   left: 49%;
+   top: 150px;
+   transform-origin: top right;
+}
+#minute-line
+{
+   height: 140px;
+   width: 4px;
+   background: #f2f2f2;
+   position: absolute;
+   left: 50%;
+   top: 150px;
+   transform-origin: top right;
+}
+#second-line
+{
+   height: 120px;
+   width: 4px;
+   background: purple;
+   position: absolute;
+   left: 51%;
+   top: 150px;
+   transform-origin: top left;
+}
